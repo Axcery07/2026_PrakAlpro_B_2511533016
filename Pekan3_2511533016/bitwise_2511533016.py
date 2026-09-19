@@ -49,7 +49,7 @@ print("Biner hasil (8 bit) = ", format(hasil_3016, "08b"))
 # Bitwise geser kanan
 jumlah_geser_3016 = int(input("\nMasukkan jumlah pergeseran bit : "))
 
-hasil_3016 = angka1_3016 << jumlah_geser_3016
+hasil_3016 = angka1_3016 >> jumlah_geser_3016
 print("\nBitwise geser kanan(>>)")
 print(angka1_3016, ">>", angka2_3016, "=", hasil_3016)
 print("Biner hasil =", bin(hasil_3016))
